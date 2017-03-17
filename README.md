@@ -15,4 +15,7 @@ A different list takes all the time samples(start time and end time) and sort th
 A final list is made, which has all the consecutive time and all the possible subtitles that is to be displayed in that time frame.
 This final list is displayed at the output window at assigned intervals using time.sleep() function.
 
+
 NOTE: This code is able to display overlapping subtitles, i.e. I have solved the bonus problem also
+      A sample .srt file is also attached with it. The subtitles is of 'Rap God' by Eminem (couldn't find a faster song).
+      Although I couldn't find an overlapping subtiles, this works fine with them. (tested by modifying the time stamps :P )
