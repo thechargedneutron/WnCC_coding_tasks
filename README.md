@@ -3,7 +3,7 @@ Hey There,
 This repository contains the solution of the coding assignment for WnCC, IIT Bombay selection process.
 My attempted question and my approach toward this problem is briefly described below:
 
-Attempted Question: 2. The Girlfriend (including bonus problem)
+Attempted Question: 2. (COMPLETED) The Girlfriend (including bonus problem)
 
 Programing Language used: Python 2
 
@@ -22,7 +22,7 @@ NOTE: This code is able to display overlapping subtitles, i.e. I have solved the
 EDIT: Due to a slight mistake in the .srt file that I chose, the time stamp was beginning from 0. According to Wikipedia, it should begin with 1. Owning to this confusion, the file has been changed and it accpets both the starting stamp.
 
 
-Attempted Question: 1. The R-Rated Artist
+Attempted Question: 1. (COMPLETED) The R-Rated Artist
 
 Programming Language used: Python 2
 
