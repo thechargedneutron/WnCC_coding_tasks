@@ -32,7 +32,10 @@ with open("lyrics.srt","r") as myfile:
 length=len(data)
 info=[]                                                        #info IS THE LIST WHICH CONTAINS SET OF SUBTITLES i.e. [time_start,time_end,subtitles]
 i=0                                                            #i IS THE ITERATOR TO TRACK THE LINES OF FILE
-j=0                                                            #j IS THE ITERATOR TO TRACK THE SUBTITLE NUMBER
+if data[0].find("0")!=-1:
+	j=0
+if data[0].find("1")!=-1:
+	j=1                                                    #j IS THE ITERATOR TO TRACK THE SUBTITLE NUMBER
 while i<length:
 	q=[]
 	if data[i]=='\xef\xbb\xbf'+str(j)+'\r\n' or data[i]==str(j)+'\r\n' or data[i]=='\xef\xbb\xbf'+str(j)+'\n' or data[i]==str(j)+'\n' or data[i]==str(j):
